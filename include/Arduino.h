@@ -97,4 +97,7 @@ class ArduinoMock {
 ArduinoMock* arduinoMockInstance();
 void releaseArduinoMock();
 
+typedef Serial_ HardwareSerial;
+#define SERIAL_8N1 0x06
+
 #endif // ARDUINO_H

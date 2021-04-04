@@ -200,7 +200,7 @@ size_t Serial_::write(const uint8_t *buffer, size_t size) {
   return gSerialMock->write(buffer, size);
 }
 
-uint8_t Serial_::begin(uint32_t port) {
+uint8_t Serial_::begin(uint32_t port, uint32_t a, uint32_t b, uint32_t c) {
   assert (gSerialMock != NULL);
   return gSerialMock->begin(port);
 }

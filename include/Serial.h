@@ -75,7 +75,7 @@ class Serial_ {
     size_t write(const char *str);
     size_t write(const uint8_t *buffer, size_t size);
 
-    uint8_t begin(uint32_t);
+    uint8_t begin(uint32_t, uint32_t=0, uint32_t=0, uint32_t=0);
 
     uint8_t available();
     uint8_t read();

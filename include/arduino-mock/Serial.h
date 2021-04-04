@@ -157,7 +157,7 @@ class Serial_ {
     virtual size_t write(const char *str);
     virtual size_t write(const uint8_t *buffer, size_t size);
 
-    virtual uint8_t begin(uint32_t);
+    virtual uint8_t begin(uint32_t, uint32_t, uint32_t, uint32_t);
 
     virtual uint8_t available();
     virtual uint8_t read();
